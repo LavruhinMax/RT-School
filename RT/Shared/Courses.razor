@@ -1,0 +1,84 @@
+﻿<style>
+    .courses {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .course-card {
+        height: 400px;
+        width: 450px;
+        margin: 0.75% 1%;
+        display: flex;
+        border: 1px solid black;
+        border-radius: 0.2vw;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+    }
+
+        .course-card:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .course-card img {
+            object-fit: cover;
+            object-position: center
+        }
+
+    .course-card-title {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        right: 50%;
+        bottom: 50%;
+        font-size: 1.1vw;
+        line-height: 1.3vw;
+        font-weight: 600;
+    }
+
+    .course-card-category {
+        position: absolute;
+        margin: 0;
+        padding: 0.2vw;
+        left: 5%;
+        bottom: 7.5%;
+        font-size: 1vw;
+        font-weight: 500;
+        border-radius: 0.4vw;
+        background-color: gray;
+        color: white
+    }
+</style>
+
+<div class="courses">
+    @foreach (var c in filteredCourses)
+    {
+        <div class="course-card" @onclick="@(() => showCoursePopup.InvokeAsync(c.Name))">
+            @switch (c.Category)
+            {
+                case "Общий":
+                    <img src="images/tools.png" />
+                    break;
+                case "B2B":
+                    <img src="images/business.png" />
+                    break;
+                case "B2C":
+                    <img src="images/operator.png" />
+                    break;
+                case "B2G":
+                    <img src="images/building.png" />
+                    break;
+            }
+            <p class="course-card-title">@c.Name</p>
+            <p class="course-card-category">@c.Category</p>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter] public IEnumerable<Course> filteredCourses { get; set; }
+    [Parameter] public EventCallback<string> showCoursePopup { get; set; }
+}

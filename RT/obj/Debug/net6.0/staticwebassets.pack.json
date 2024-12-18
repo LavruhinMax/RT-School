@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RT.soa3fb3d2i.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\central.css",
+      "PackagePath": "staticwebassets\\css\\central.css"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\start.css",
+      "PackagePath": "staticwebassets\\css\\start.css"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\RT-logo-dark.png",
+      "PackagePath": "staticwebassets\\images\\RT-logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\RT-logo.jpg",
+      "PackagePath": "staticwebassets\\images\\RT-logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\RT.jpg",
+      "PackagePath": "staticwebassets\\images\\RT.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\b2b.png",
+      "PackagePath": "staticwebassets\\images\\b2b.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\b2c.png",
+      "PackagePath": "staticwebassets\\images\\b2c.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\b2g.jpg",
+      "PackagePath": "staticwebassets\\images\\b2g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\building.png",
+      "PackagePath": "staticwebassets\\images\\building.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\business.png",
+      "PackagePath": "staticwebassets\\images\\business.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\exit.png",
+      "PackagePath": "staticwebassets\\images\\exit.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\eye-closed.png",
+      "PackagePath": "staticwebassets\\images\\eye-closed.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\eye-opened.png",
+      "PackagePath": "staticwebassets\\images\\eye-opened.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\female-icon.png",
+      "PackagePath": "staticwebassets\\images\\female-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\general.png",
+      "PackagePath": "staticwebassets\\images\\general.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\key-icon.png",
+      "PackagePath": "staticwebassets\\images\\key-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\learning.png",
+      "PackagePath": "staticwebassets\\images\\learning.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\male-icon.png",
+      "PackagePath": "staticwebassets\\images\\male-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\operator.png",
+      "PackagePath": "staticwebassets\\images\\operator.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\prof.webp",
+      "PackagePath": "staticwebassets\\images\\prof.webp"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\search.svg",
+      "PackagePath": "staticwebassets\\images\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\sells.webp",
+      "PackagePath": "staticwebassets\\images\\sells.webp"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\skill.webp",
+      "PackagePath": "staticwebassets\\images\\skill.webp"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\tech.png",
+      "PackagePath": "staticwebassets\\images\\tech.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\time.png",
+      "PackagePath": "staticwebassets\\images\\time.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\time.webp",
+      "PackagePath": "staticwebassets\\images\\time.webp"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\tools.png",
+      "PackagePath": "staticwebassets\\images\\tools.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RT.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.RT.props",
+      "PackagePath": "build\\RT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.RT.props",
+      "PackagePath": "buildMultiTargeting\\RT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.RT.props",
+      "PackagePath": "buildTransitive\\RT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

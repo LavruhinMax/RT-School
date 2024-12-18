@@ -1,0 +1,118 @@
+﻿@page "/"
+@inject SQLiteService SQLiteService
+@inject NavigationManager NavManager
+
+<link href="css/start.css" rel="stylesheet" />
+<PageTitle>Вход</PageTitle>
+<div class="page">
+    <div class="image-container">
+        <img class="welcome-image" src="images/RT.jpg">
+        <div class="advantages">
+            <Advantage source="images/prof.webp" text="Исследуйте все аспекты своей профессиональной деятельности" />
+            <Advantage source="images/tech.png" text="Будьте в курсе последних трендов и технологий" />
+            <Advantage source="images/skill.webp" text="Развивайте новые навыки для повышения эффективности" />
+            <Advantage source="images/sells.webp" text="Изучайте техники продаж и их применение на практике" />
+        </div>
+    </div>
+    <div class="login-container">
+        <img class="logo" src="images/RT-logo.jpg">
+        @if(showError) {
+            <div class="error-container">
+                <p class="error">@errorMessage</p>
+            </div>
+        }
+        <div class="input-container">
+            <input class="login-input" placeholder="Логин или электронная почта" @bind="login">
+        </div>
+        <div class="input-container">
+            <input class="password-input" type="@((showPass) ? "text" : "password")" placeholder="Пароль" @bind="password">
+            <img class="eye-icon" src="@((showPass) ? "images/eye-opened.png" : "images/eye-closed.png")" @onclick="coverOrUncoverPassword">
+        </div>
+        <button class="enter-button" @onclick="enter">Вход</button>
+        <div class="help">
+            <img class="key-icon" src="images/key-icon.png" />
+            <p class="help-text">Нет учетной записи?<br>Обратитесь к руководителю!</p>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Account> accounts = new List<Account>();
+    private List<Employee> employees = new List<Employee>();
+    private List<Supervisor> supervisors = new List<Supervisor>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        accounts = await SQLiteService.getAccountsAsync();
+        employees = await SQLiteService.getEmployeesAsync();
+        supervisors = await SQLiteService.getSupervisorsAsync();
+    }
+    private string login = UserContext.login;
+    private string password = UserContext.password;
+
+    private bool showError = false;
+    private bool showPass = false;
+    private string errorMessage;
+
+    bool isLoginCorrect = false;
+    bool isPasswordCorrect = false;
+
+    Account acc = new Account();
+    private void enter()
+    {
+        if(string.IsNullOrEmpty(login) || string.IsNullOrEmpty(password))
+        {
+            showError = true;
+            errorMessage = "Заполните все поля!";
+            return;
+        }
+        foreach(var a in accounts)
+        {
+            foreach (var emp in employees) if (emp.Email == login) isLoginCorrect = true;
+            foreach (var sup in supervisors) if (sup.Email == login) isLoginCorrect = true;
+            if ((isLoginCorrect && (a.Pass == password)) || ((a.Login == login) && (a.Pass == password)))
+            {
+                isPasswordCorrect = true;
+                acc = a;
+            }
+        }
+        if (isPasswordCorrect)
+        {
+            foreach (var emp in employees)
+                if (emp.Employee_Id == acc.Employee_Id)
+                {
+                    contextSetter(login, password, emp.Employee_Id, emp.Gender, emp.First_Name, emp.Last_Name, emp.Middle_Name, "Employee", emp.Phone_Number, emp.Email);
+                    NavManager.NavigateTo("Central");
+                    return;
+                }
+            foreach (var sup in supervisors)
+                if (sup.Supervisor_Id == acc.Supervisor_Id) contextSetter(login, password, sup.Supervisor_Id, sup.Gender, sup.First_Name, sup.Last_Name, sup.Middle_Name, "Supervisor", sup.Phone_Number, sup.Email); 
+            NavManager.NavigateTo("Central");
+        }
+        else
+        {
+            showError = true;
+            errorMessage = "Неверный логин или пароль!";
+        }
+    }
+
+    private void contextSetter(string _login, string _pass, int _id, string _gender, string _first,
+        string _last, string _middle, string _post, string _phoneNumber, string _email)
+    {
+        UserContext.login = _login;
+        UserContext.password = _pass;
+        UserContext.id = _id;
+        UserContext.gender = _gender;
+        UserContext.firstName = _first;
+        UserContext.middleName = _middle;
+        UserContext.lastName = _last;
+        UserContext.post = _post;
+        UserContext.phoneNumber = _phoneNumber;
+        UserContext.email = _email;
+    }
+
+    private void coverOrUncoverPassword()
+    {
+        showPass = !showPass;
+    }
+}

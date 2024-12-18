@@ -1,0 +1,24 @@
+﻿<style>
+    .list-container {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin: 0 0 1% 0;
+    background-color: rgb(220, 220, 220);
+    }
+
+    .list {
+    margin-left: 2%;
+    color: rgb(45, 45, 165);
+    font-size: 0.9vw;
+    font-weight: bold;
+    }
+</style>
+
+<div class="list-container">
+    <p class="list">@filter</p>
+</div>
+
+@code {
+    [Parameter] public string filter { get; set; }
+}

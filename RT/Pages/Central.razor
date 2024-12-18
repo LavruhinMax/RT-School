@@ -1,0 +1,139 @@
+﻿@page "/Central"
+@inject SQLiteService SQLiteService
+@inject NavigationManager NavManager
+
+<link href="css/central.css" rel="stylesheet" />
+<PageTitle>Главная</PageTitle>
+<div class="page">
+    <Header isMenuVisible="@isMenuVisible" showProfilePopup="showProfilePopup" openProfileMenu="openProfileMenu"/>
+    <div class="main">
+        <input type="text" @bind="searchOption" @oninput="inputChanged" placeholder="Ищете что-то конкретное?" />
+        @if(string.IsNullOrEmpty(searchOption))
+        {
+            <div class="categories">
+                <div class="category-card" @onclick="generalSearch">
+                    <img class="category-img" src="images/general.png" />
+                    <p class="category-title">Общие курсы</p>
+                </div>
+                <div class="category-card" @onclick="b2bSearch">
+                    <img class="category-img" src="images/b2b.png" />
+                    <p class="category-title">B2B</p>
+                </div>
+                <div class="category-card" @onclick="b2cSearch">
+                    <img class="category-img" src="images/b2c.png" />
+                    <p class="category-title">B2C</p>
+                </div>
+                <div class="category-card" @onclick="b2gSearch">
+                    <img class="category-img" src="images/b2g.jpg" />
+                    <p class="category-title">B2G</p>
+                </div>
+            </div>
+            <SearchTitle filter="@filter"/>
+            <Courses filteredCourses="filteredCourses" showCoursePopup="showCoursePopup"/>
+        }
+        else {
+            <SearchTitle filter="Найдено по вашему запросу:"/>
+            @if (!filteredCourses.Any())
+            {
+                <Nothing/>
+            }
+            else
+            {
+                <Courses filteredCourses="filteredCourses" showCoursePopup="showCoursePopup" />
+            }
+        }
+    </div>
+    <Footer/>
+</div>
+
+<CoursePopup IsVisible="@isCourseVisible" IsVisibleChanged="@CourseVisibility" Name="@courseName" />
+<ProfilePopup IsVisible="@isProfileVisible" IsVisibleChanged="@ProfileVisibility"/>
+
+@code {
+    private List<Course> courses = new List<Course>();
+    private bool isMenuVisible = false;
+    private bool isProfileVisible = false;
+    private bool isCourseVisible = false;
+    private string courseName;
+
+    private string searchOption = string.Empty;
+    private IEnumerable<Course> filteredCourses;
+    private string filter = "Все курсы";
+
+    protected override async Task OnInitializedAsync()
+    {
+        courses = await SQLiteService.getCoursesAsync();
+        filteredCourses = courses;
+    }
+
+    private async Task inputChanged(ChangeEventArgs e)
+    {
+        searchOption = e.Value.ToString();
+        await SearchCourses();
+    }
+
+    private async Task SearchCourses()
+    {
+        if (string.IsNullOrEmpty(searchOption))
+        {
+            filteredCourses = courses;
+            filter = "Все курсы";
+        }
+        else
+        {
+            filteredCourses = courses.Where(c => c.Name.Contains(searchOption, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+    }
+    private void generalSearch()
+    {
+        filteredCourses = courses.Where(c => c.Category == "Общий");
+        filter = "Общие курсы";
+    }
+
+    private void b2bSearch()
+    {
+        filteredCourses = courses.Where(c => c.Category == "B2B");
+        filter = "Для сегмента B2B";
+    }
+
+    private void b2cSearch()
+    {
+        filteredCourses = courses.Where(c => c.Category == "B2C");
+        filter = "Для сегмента B2C";
+    }
+
+    private void b2gSearch()
+    {
+        filteredCourses = courses.Where(c => c.Category == "B2G");
+        filter = "Для сегмента B2G";
+    }
+
+    private void openProfileMenu() {
+        isMenuVisible = !isMenuVisible;
+        isCourseVisible = false;
+        isProfileVisible = false;
+    }
+
+    private void showProfilePopup()
+    {
+        isMenuVisible = false;
+        isProfileVisible = true;
+    }
+
+    private void showCoursePopup(string name)
+    {
+        isCourseVisible = true;
+        courseName = name;
+    }
+
+    private void CourseVisibility(bool isVisible)
+    {
+        isCourseVisible = isVisible;
+    }
+
+    private void ProfileVisibility(bool isVisible)
+    {
+        isProfileVisible = isVisible;
+    }
+
+}

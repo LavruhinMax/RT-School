@@ -1,0 +1,120 @@
+﻿@inject NavigationManager NavManager
+<style>
+    .head-panel {
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    }
+
+    .head-logo {
+    height: 80%;
+    margin: 0 2% 0 1%;
+    cursor: pointer;
+    }
+
+    button {
+    width: 7.5%;
+    height: 100%;
+    background-color: white;
+    font-size: 1vw;
+    font-weight: 500;
+    border: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 0.2s
+    }
+
+    button:hover {
+    background-color: #f0f0f0;
+    }
+
+    .profile-link {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    }
+
+    .picture-container {
+    display: flex;
+    height: 7.5vh;
+    margin: 0 1% 0 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    }
+
+    .profile-picture {
+    height: 5vh;
+    cursor: pointer;
+    }
+
+    .profile-menu {
+    padding: 0.2vw;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0.2vw;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 100%;
+    z-index: 100
+    }
+
+    .profile-menu button {
+    display: block;
+    width: 100%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 0.6vw 1vw 0.6vw 0.6vw;
+    text-align: start;
+    cursor: pointer;
+    transition: 0.1s
+    }
+
+    .profile-menu button:hover {
+    background-color: #f0f0f0;
+    }
+
+    .profile-name {
+    margin: 0 10% 0 0;
+    font-size: 1.1vw;
+    font-weight: 600
+    }
+
+</style>
+
+<div class="head-panel">
+    <img class="head-logo" @onclick="toCentralPage" src="images/RT-logo.jpg">
+    <button @onclick="toCentralPage">Мои курсы</button>
+    <button>@(UserContext.post == "Employee" ? "Статистика" : "Команда")</button>
+    <div class="profile-link">
+        <div class="picture-container">
+            <img class="profile-picture" src="@((UserContext.gender == "M") ? "images/male-icon.png" : "images/female-icon.png")" @onclick="openProfileMenu">
+            @if(isMenuVisible)
+            {
+                <div class="profile-menu">
+                    <button @onclick="showProfilePopup">Профиль</button>
+                    <button @onclick="quit">Выйти</button>
+                </div>
+            }
+        </div>
+        <p class="profile-name">@UserContext.firstName</p>
+    </div>
+</div>
+
+@code {
+    [Parameter] public bool isMenuVisible { get; set; }
+    [Parameter] public EventCallback showProfilePopup { get; set; }
+    [Parameter] public EventCallback openProfileMenu { get; set; }
+
+    private void toCentralPage()
+    {
+        NavManager.NavigateTo("Central", forceLoad: true);
+    }
+
+    private void quit()
+    {
+        NavManager.NavigateTo("/");
+    }
+}
