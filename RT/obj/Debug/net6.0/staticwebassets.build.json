@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cmVWHUineo57nSkuX4DPKXCezEfigY6PmquI8lQE5zc=",
+  "Hash": "vkhtR+jCKHAi9/2eH3sxU84NrDVeLKSCsk63D9UG1K0=",
   "Source": "RT",
   "BasePath": "_content/RT",
   "Mode": "Default",
@@ -59,6 +59,237 @@
       "OriginalItemSpec": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RT.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\135.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/135#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p93apkdjr6",
+      "Integrity": "DUiiTQPtLklcag3q83Sp+ZNeDZ85k6U3gEjGGM2TuuA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\135.png"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/calltracking#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmiktsftnd",
+      "Integrity": "TPgpOw1LcLsQPgToqlWlJ6+w/qSlwA9D2mS60PB9Ziw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\calltracking.png"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking2.webp",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/calltracking2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e4v0wyldtr",
+      "Integrity": "cuoykBLGHKmsF2bRjO2oIK7EIiEkqRo4XZzQj4nkH28=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\calltracking2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking3.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/calltracking3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lim79a88zi",
+      "Integrity": "vf7L7kXOGVo9rE7mwXZ/Jcd7TDV5t7cbTzUPPUAAgs4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\calltracking3.png"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking4.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/calltracking4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mi5svc564b",
+      "Integrity": "EvbwhXPYJ9iOl7/vaGyTr/WEv9GVayQwceKAr7gcD3g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\calltracking4.png"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\eizen.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/eizen#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0u3gisb7c8",
+      "Integrity": "mNaHcjhDWaSWKYfcdcQmjAWVrywMH1yxKiSCMO2kv7E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\eizen.png"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\hunt.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/hunt#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bup3wi3twr",
+      "Integrity": "k72csaAHxsQ1KIZ3jkQ4WYaTb4nBg1WixUuASUHk8Es=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\hunt.png"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\pareto.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/pareto#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m9o9zponv5",
+      "Integrity": "5tXZ0jQXILLVJwOn+lBbmeh9SlPqdkPCsFu/3Pt3E5k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\pareto.png"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\tele2.webp",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/tele2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g646wrrt8b",
+      "Integrity": "WEmwVyPHhTOa80bGwK4X12QyrrzYJbikqyCFzC7RykU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\tele2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\tele2-2.webp",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/tele2-2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "einhyhsmr2",
+      "Integrity": "RheL/sh2D1JPvXRbbBSuX/PFqL4lpD+PRORhEbiPqAs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\tele2-2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\time-management.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "c-images/time-management#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y0i8x4nhxa",
+      "Integrity": "vvHLrLl4pJOrThmrafErEUrlu+s6VspI8OJEeVxxqKc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\c-images\\time-management.png"
+    },
+    {
       "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\central.css",
       "SourceId": "RT",
       "SourceType": "Discovered",
@@ -73,11 +304,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y8cp4cg2gp",
-      "Integrity": "Qr7JuSUDLts7XVCpfh1kR2d8EaFp3TrRnzD98r2b8FM=",
+      "Fingerprint": "dvo4m8qbde",
+      "Integrity": "F1MqUAjpiFioIwterXRD8l4F+cvXVd9QNDmyVCRaQqc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\central.css"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\coursePage.css",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "css/coursePage#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i2unmgwrny",
+      "Integrity": "BjIvjfziVdCuDdRWP6szkzeYA4ldllzG5KgYFcWc5Aw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\coursePage.css"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\forme.css",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "css/forme#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8zarvbpydc",
+      "Integrity": "VAu9wPyRLPsNMW5ugne2CVx6T1tzF59THGFWpWIdgqQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\forme.css"
     },
     {
       "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\start.css",
@@ -99,6 +372,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\start.css"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\stats.css",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "css/stats#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a2w2vcew6x",
+      "Integrity": "0h0R7LWnBa9//fn4VjxepF3RkoXnrDcTRKB0eq7HPvc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\stats.css"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\team.css",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "css/team#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5zld9dw0ii",
+      "Integrity": "ga3WonmMUNMm3/plwCMVuGvl0+Oj9vdNPCP0XVMz1dU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\team.css"
     },
     {
       "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\favicon.ico",
@@ -225,6 +540,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\business.png"
+    },
+    {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\done.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "images/done#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f1qt0c0fk3",
+      "Integrity": "7WalYATHFlKurofsrq6KkcDG43f+iXEXMRIV7MAc3Ow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\done.png"
     },
     {
       "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\exit.png",
@@ -437,6 +773,27 @@
       "OriginalItemSpec": "wwwroot\\images\\prof.webp"
     },
     {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\required.png",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "images/required#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z0p8nejvn7",
+      "Integrity": "TXDM03b1FCXK2qDsUFB+lDVP1pFWqjE7Iv4PoCW+aK4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\required.png"
+    },
+    {
       "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\RT.jpg",
       "SourceId": "RT",
       "SourceType": "Discovered",
@@ -563,6 +920,27 @@
       "OriginalItemSpec": "wwwroot\\images\\skill.webp"
     },
     {
+      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\stats.webp",
+      "SourceId": "RT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
+      "BasePath": "_content/RT",
+      "RelativePath": "images/stats#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1asn2wa0n3",
+      "Integrity": "F689LDXQE5HWyGujB4OEeqDT1+FNI1EzL23b3TatbTo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\stats.webp"
+    },
+    {
       "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\tech.png",
       "SourceId": "RT",
       "SourceType": "Discovered",
@@ -605,27 +983,6 @@
       "OriginalItemSpec": "wwwroot\\images\\time.png"
     },
     {
-      "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\time.webp",
-      "SourceId": "RT",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\",
-      "BasePath": "_content/RT",
-      "RelativePath": "images/time#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9te0nplgdy",
-      "Integrity": "/RUNyOSEHTwD8PZpGq9NCAIcgafu89Vdk4y+0wbch6k=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\time.webp"
-    },
-    {
       "Identity": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\tools.png",
       "SourceId": "RT",
       "SourceType": "Discovered",
@@ -649,6 +1006,908 @@
   ],
   "Endpoints": [
     {
+      "Route": "c-images/135.p93apkdjr6.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\135.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DUiiTQPtLklcag3q83Sp+ZNeDZ85k6U3gEjGGM2TuuA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p93apkdjr6"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/135.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DUiiTQPtLklcag3q83Sp+ZNeDZ85k6U3gEjGGM2TuuA="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/135.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\135.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DUiiTQPtLklcag3q83Sp+ZNeDZ85k6U3gEjGGM2TuuA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DUiiTQPtLklcag3q83Sp+ZNeDZ85k6U3gEjGGM2TuuA="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/calltracking.kmiktsftnd.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TPgpOw1LcLsQPgToqlWlJ6+w/qSlwA9D2mS60PB9Ziw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:55:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmiktsftnd"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/calltracking.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TPgpOw1LcLsQPgToqlWlJ6+w/qSlwA9D2mS60PB9Ziw="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/calltracking.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TPgpOw1LcLsQPgToqlWlJ6+w/qSlwA9D2mS60PB9Ziw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:55:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TPgpOw1LcLsQPgToqlWlJ6+w/qSlwA9D2mS60PB9Ziw="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/calltracking2.e4v0wyldtr.webp",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cuoykBLGHKmsF2bRjO2oIK7EIiEkqRo4XZzQj4nkH28=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:59:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e4v0wyldtr"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/calltracking2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cuoykBLGHKmsF2bRjO2oIK7EIiEkqRo4XZzQj4nkH28="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/calltracking2.webp",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cuoykBLGHKmsF2bRjO2oIK7EIiEkqRo4XZzQj4nkH28=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:59:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cuoykBLGHKmsF2bRjO2oIK7EIiEkqRo4XZzQj4nkH28="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/calltracking3.lim79a88zi.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vf7L7kXOGVo9rE7mwXZ/Jcd7TDV5t7cbTzUPPUAAgs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 03:09:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lim79a88zi"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/calltracking3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vf7L7kXOGVo9rE7mwXZ/Jcd7TDV5t7cbTzUPPUAAgs4="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/calltracking3.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vf7L7kXOGVo9rE7mwXZ/Jcd7TDV5t7cbTzUPPUAAgs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 03:09:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vf7L7kXOGVo9rE7mwXZ/Jcd7TDV5t7cbTzUPPUAAgs4="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/calltracking4.mi5svc564b.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EvbwhXPYJ9iOl7/vaGyTr/WEv9GVayQwceKAr7gcD3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 03:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mi5svc564b"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/calltracking4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EvbwhXPYJ9iOl7/vaGyTr/WEv9GVayQwceKAr7gcD3g="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/calltracking4.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EvbwhXPYJ9iOl7/vaGyTr/WEv9GVayQwceKAr7gcD3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 03:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EvbwhXPYJ9iOl7/vaGyTr/WEv9GVayQwceKAr7gcD3g="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/eizen.0u3gisb7c8.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\eizen.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mNaHcjhDWaSWKYfcdcQmjAWVrywMH1yxKiSCMO2kv7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:11:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0u3gisb7c8"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/eizen.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mNaHcjhDWaSWKYfcdcQmjAWVrywMH1yxKiSCMO2kv7E="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/eizen.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\eizen.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mNaHcjhDWaSWKYfcdcQmjAWVrywMH1yxKiSCMO2kv7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:11:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mNaHcjhDWaSWKYfcdcQmjAWVrywMH1yxKiSCMO2kv7E="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/hunt.bup3wi3twr.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\hunt.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k72csaAHxsQ1KIZ3jkQ4WYaTb4nBg1WixUuASUHk8Es=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:24:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bup3wi3twr"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/hunt.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k72csaAHxsQ1KIZ3jkQ4WYaTb4nBg1WixUuASUHk8Es="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/hunt.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\hunt.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k72csaAHxsQ1KIZ3jkQ4WYaTb4nBg1WixUuASUHk8Es=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:24:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k72csaAHxsQ1KIZ3jkQ4WYaTb4nBg1WixUuASUHk8Es="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/pareto.m9o9zponv5.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\pareto.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tXZ0jQXILLVJwOn+lBbmeh9SlPqdkPCsFu/3Pt3E5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:18:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m9o9zponv5"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/pareto.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tXZ0jQXILLVJwOn+lBbmeh9SlPqdkPCsFu/3Pt3E5k="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/pareto.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\pareto.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tXZ0jQXILLVJwOn+lBbmeh9SlPqdkPCsFu/3Pt3E5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:18:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tXZ0jQXILLVJwOn+lBbmeh9SlPqdkPCsFu/3Pt3E5k="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/tele2.g646wrrt8b.webp",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\tele2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WEmwVyPHhTOa80bGwK4X12QyrrzYJbikqyCFzC7RykU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 03:24:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g646wrrt8b"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/tele2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WEmwVyPHhTOa80bGwK4X12QyrrzYJbikqyCFzC7RykU="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/tele2.webp",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\tele2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WEmwVyPHhTOa80bGwK4X12QyrrzYJbikqyCFzC7RykU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 03:24:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WEmwVyPHhTOa80bGwK4X12QyrrzYJbikqyCFzC7RykU="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/tele2-2.einhyhsmr2.webp",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\tele2-2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RheL/sh2D1JPvXRbbBSuX/PFqL4lpD+PRORhEbiPqAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 03:37:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "einhyhsmr2"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/tele2-2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RheL/sh2D1JPvXRbbBSuX/PFqL4lpD+PRORhEbiPqAs="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/tele2-2.webp",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\tele2-2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RheL/sh2D1JPvXRbbBSuX/PFqL4lpD+PRORhEbiPqAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 03:37:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RheL/sh2D1JPvXRbbBSuX/PFqL4lpD+PRORhEbiPqAs="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/time-management.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\time-management.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vvHLrLl4pJOrThmrafErEUrlu+s6VspI8OJEeVxxqKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:01:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vvHLrLl4pJOrThmrafErEUrlu+s6VspI8OJEeVxxqKc="
+        }
+      ]
+    },
+    {
+      "Route": "c-images/time-management.y0i8x4nhxa.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\time-management.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vvHLrLl4pJOrThmrafErEUrlu+s6VspI8OJEeVxxqKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 02:01:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0i8x4nhxa"
+        },
+        {
+          "Name": "label",
+          "Value": "c-images/time-management.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vvHLrLl4pJOrThmrafErEUrlu+s6VspI8OJEeVxxqKc="
+        }
+      ]
+    },
+    {
       "Route": "css/central.css",
       "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\central.css",
       "Selectors": [],
@@ -659,7 +1918,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1304"
+          "Value": "1282"
         },
         {
           "Name": "Content-Type",
@@ -667,11 +1926,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Qr7JuSUDLts7XVCpfh1kR2d8EaFp3TrRnzD98r2b8FM=\""
+          "Value": "\"F1MqUAjpiFioIwterXRD8l4F+cvXVd9QNDmyVCRaQqc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 05:56:08 GMT"
+          "Value": "Sun, 22 Dec 2024 23:52:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -681,12 +1940,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Qr7JuSUDLts7XVCpfh1kR2d8EaFp3TrRnzD98r2b8FM="
+          "Value": "sha256-F1MqUAjpiFioIwterXRD8l4F+cvXVd9QNDmyVCRaQqc="
         }
       ]
     },
     {
-      "Route": "css/central.y8cp4cg2gp.css",
+      "Route": "css/central.dvo4m8qbde.css",
       "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\central.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -696,7 +1955,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1304"
+          "Value": "1282"
         },
         {
           "Name": "Content-Type",
@@ -704,11 +1963,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Qr7JuSUDLts7XVCpfh1kR2d8EaFp3TrRnzD98r2b8FM=\""
+          "Value": "\"F1MqUAjpiFioIwterXRD8l4F+cvXVd9QNDmyVCRaQqc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 05:56:08 GMT"
+          "Value": "Sun, 22 Dec 2024 23:52:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -718,7 +1977,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "y8cp4cg2gp"
+          "Value": "dvo4m8qbde"
         },
         {
           "Name": "label",
@@ -726,7 +1985,171 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Qr7JuSUDLts7XVCpfh1kR2d8EaFp3TrRnzD98r2b8FM="
+          "Value": "sha256-F1MqUAjpiFioIwterXRD8l4F+cvXVd9QNDmyVCRaQqc="
+        }
+      ]
+    },
+    {
+      "Route": "css/coursePage.css",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\coursePage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BjIvjfziVdCuDdRWP6szkzeYA4ldllzG5KgYFcWc5Aw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 02:24:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BjIvjfziVdCuDdRWP6szkzeYA4ldllzG5KgYFcWc5Aw="
+        }
+      ]
+    },
+    {
+      "Route": "css/coursePage.i2unmgwrny.css",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\coursePage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BjIvjfziVdCuDdRWP6szkzeYA4ldllzG5KgYFcWc5Aw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 02:24:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i2unmgwrny"
+        },
+        {
+          "Name": "label",
+          "Value": "css/coursePage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BjIvjfziVdCuDdRWP6szkzeYA4ldllzG5KgYFcWc5Aw="
+        }
+      ]
+    },
+    {
+      "Route": "css/forme.8zarvbpydc.css",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\forme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VAu9wPyRLPsNMW5ugne2CVx6T1tzF59THGFWpWIdgqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 00:20:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8zarvbpydc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/forme.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VAu9wPyRLPsNMW5ugne2CVx6T1tzF59THGFWpWIdgqQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/forme.css",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\forme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VAu9wPyRLPsNMW5ugne2CVx6T1tzF59THGFWpWIdgqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 00:20:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VAu9wPyRLPsNMW5ugne2CVx6T1tzF59THGFWpWIdgqQ="
         }
       ]
     },
@@ -809,6 +2232,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-7Us8Pympvxxkzc9cYwH13TWuMUeg9SUJE3Lr5CFF/Gk="
+        }
+      ]
+    },
+    {
+      "Route": "css/stats.a2w2vcew6x.css",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\stats.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0h0R7LWnBa9//fn4VjxepF3RkoXnrDcTRKB0eq7HPvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 22:02:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a2w2vcew6x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/stats.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0h0R7LWnBa9//fn4VjxepF3RkoXnrDcTRKB0eq7HPvc="
+        }
+      ]
+    },
+    {
+      "Route": "css/stats.css",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\stats.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0h0R7LWnBa9//fn4VjxepF3RkoXnrDcTRKB0eq7HPvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 22:02:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0h0R7LWnBa9//fn4VjxepF3RkoXnrDcTRKB0eq7HPvc="
+        }
+      ]
+    },
+    {
+      "Route": "css/team.5zld9dw0ii.css",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\team.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ga3WonmMUNMm3/plwCMVuGvl0+Oj9vdNPCP0XVMz1dU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 06:37:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5zld9dw0ii"
+        },
+        {
+          "Name": "label",
+          "Value": "css/team.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ga3WonmMUNMm3/plwCMVuGvl0+Oj9vdNPCP0XVMz1dU="
+        }
+      ]
+    },
+    {
+      "Route": "css/team.css",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\team.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ga3WonmMUNMm3/plwCMVuGvl0+Oj9vdNPCP0XVMz1dU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 06:37:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ga3WonmMUNMm3/plwCMVuGvl0+Oj9vdNPCP0XVMz1dU="
         }
       ]
     },
@@ -1301,6 +2888,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-HWt6reqtNqxqb6s7zegYsBWq+uWLFU8VG9EvVFJ1Ylo="
+        }
+      ]
+    },
+    {
+      "Route": "images/done.f1qt0c0fk3.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\done.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7WalYATHFlKurofsrq6KkcDG43f+iXEXMRIV7MAc3Ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 22:22:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f1qt0c0fk3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/done.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7WalYATHFlKurofsrq6KkcDG43f+iXEXMRIV7MAc3Ow="
+        }
+      ]
+    },
+    {
+      "Route": "images/done.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\done.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7WalYATHFlKurofsrq6KkcDG43f+iXEXMRIV7MAc3Ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 22:22:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7WalYATHFlKurofsrq6KkcDG43f+iXEXMRIV7MAc3Ow="
         }
       ]
     },
@@ -2125,6 +3794,88 @@
       ]
     },
     {
+      "Route": "images/required.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\required.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TXDM03b1FCXK2qDsUFB+lDVP1pFWqjE7Iv4PoCW+aK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 22:29:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TXDM03b1FCXK2qDsUFB+lDVP1pFWqjE7Iv4PoCW+aK4="
+        }
+      ]
+    },
+    {
+      "Route": "images/required.z0p8nejvn7.png",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\required.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TXDM03b1FCXK2qDsUFB+lDVP1pFWqjE7Iv4PoCW+aK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 22:29:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z0p8nejvn7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/required.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TXDM03b1FCXK2qDsUFB+lDVP1pFWqjE7Iv4PoCW+aK4="
+        }
+      ]
+    },
+    {
       "Route": "images/RT.jpg",
       "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\RT.jpg",
       "Selectors": [],
@@ -2617,6 +4368,88 @@
       ]
     },
     {
+      "Route": "images/stats.1asn2wa0n3.webp",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\stats.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F689LDXQE5HWyGujB4OEeqDT1+FNI1EzL23b3TatbTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 21:09:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1asn2wa0n3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/stats.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F689LDXQE5HWyGujB4OEeqDT1+FNI1EzL23b3TatbTo="
+        }
+      ]
+    },
+    {
+      "Route": "images/stats.webp",
+      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\stats.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F689LDXQE5HWyGujB4OEeqDT1+FNI1EzL23b3TatbTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 21:09:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F689LDXQE5HWyGujB4OEeqDT1+FNI1EzL23b3TatbTo="
+        }
+      ]
+    },
+    {
       "Route": "images/tech.i6pxqay07g.png",
       "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\tech.png",
       "Selectors": [],
@@ -2744,51 +4577,6 @@
       ]
     },
     {
-      "Route": "images/time.9te0nplgdy.webp",
-      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\time.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9908"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/RUNyOSEHTwD8PZpGq9NCAIcgafu89Vdk4y+0wbch6k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 20:33:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9te0nplgdy"
-        },
-        {
-          "Name": "label",
-          "Value": "images/time.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/RUNyOSEHTwD8PZpGq9NCAIcgafu89Vdk4y+0wbch6k="
-        }
-      ]
-    },
-    {
       "Route": "images/time.png",
       "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\time.png",
       "Selectors": [],
@@ -2822,43 +4610,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-/Uj20ns0MPBi65RStmR5OBIU5rTMGfkb9a5LGYv4GOY="
-        }
-      ]
-    },
-    {
-      "Route": "images/time.webp",
-      "AssetFile": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\time.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9908"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/RUNyOSEHTwD8PZpGq9NCAIcgafu89Vdk4y+0wbch6k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 20:33:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/RUNyOSEHTwD8PZpGq9NCAIcgafu89Vdk4y+0wbch6k="
         }
       ]
     },

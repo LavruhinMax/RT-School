@@ -78,3 +78,4 @@ C:\Users\Максим\Documents\Projects\RT\RT\bin\Debug\net6.0\runtimes\win-x86
 C:\Users\Максим\Documents\Projects\RT\RT\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Максим\Documents\Projects\RT\RT\obj\Debug\net6.0\RT.csproj.AssemblyReference.cache
 C:\Users\Максим\Documents\Projects\RT\RT\obj\Debug\net6.0\RT.csproj.Up2Date
+C:\Users\Максим\Documents\Projects\RT\RT\obj\Debug\net6.0\RT.sourcelink.json

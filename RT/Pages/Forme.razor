@@ -1,0 +1,63 @@
+﻿@page "/Forme"
+
+<link href="css/forme.css" rel="stylesheet" />
+<PageTitle>Мои курсы</PageTitle>
+<div class="page">
+    <Header />
+    <div class="main">
+        <div class="supervisor">
+            <p>Руководитель: </p>
+            <p>@supervisorName</p>
+        </div>
+        <SearchTitle filter="Назначено для меня"/>
+        <Courses filteredCourses="filteredCourses" objectives="objectives" showCoursePopup="showCoursePopup" />
+    </div>
+    <Footer />
+</div>
+
+<CoursePopup IsVisible="@isCourseVisible" IsVisibleChanged="@CourseVisibility" Name="@courseName" />
+
+@code {
+    private List<Course> courses = new List<Course>();
+    private List<Course> filteredCourses = new List<Course>();
+    private List<Objective> objectives = new List<Objective>();
+    private List<Supervisor> supervisors = new List<Supervisor>();
+    private bool isCourseVisible = false;
+    private string courseName;
+    private string supervisorName;
+
+    protected override async Task OnInitializedAsync()
+    {
+        courses = await SQLiteService.getCoursesAsync();
+        objectives = await SQLiteService.getObjectivesAsync();
+        supervisors = await SQLiteService.getSupervisorsAsync();
+        foreach (var c in courses)
+            foreach (var o in objectives)
+                if ((c.Course_Id == o.Course_Id) && (UserContext.id == o.Employee_Id) && (o.IsObligatory == true))
+                    filteredCourses.Add(c);
+        foreach(var s in supervisors)
+        {
+            if (UserContext.supervisorId == s.Supervisor_Id) supervisorName = s.Last_Name + " " + s.First_Name + " " + s.Middle_Name;
+        }
+    }
+
+    private void showCoursePopup(string name)
+    {
+        foreach (var c in courses)
+        {
+            if (c.Name == name)
+            {
+                CourseContext.id = c.Course_Id;
+                CourseContext.time = c.Time;
+            }
+        }
+        isCourseVisible = true;
+        courseName = name;
+    }
+
+    private void CourseVisibility(bool isVisible)
+    {
+        isCourseVisible = isVisible;
+    }
+
+}

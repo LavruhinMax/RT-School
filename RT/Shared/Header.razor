@@ -1,5 +1,4 @@
-﻿@inject NavigationManager NavManager
-<style>
+﻿<style>
     .head-panel {
     height: 7.5vh;
     display: flex;
@@ -86,8 +85,12 @@
 
 <div class="head-panel">
     <img class="head-logo" @onclick="toCentralPage" src="images/RT-logo.jpg">
-    <button @onclick="toCentralPage">Мои курсы</button>
-    <button>@(UserContext.post == "Employee" ? "Статистика" : "Команда")</button>
+    <button @onclick="toCentralPage">Главная</button>
+    <button @onclick="toCoursesOrTeam">@((UserContext.status == "Employee") ? "Мои курсы" : "Команда")</button>
+    @if (UserContext.status == "Employee")
+    {
+        <button @onclick="toStats">@((UserContext.status == "Employee") ? "Статистика" : "Курсы")</button>
+    }
     <div class="profile-link">
         <div class="picture-container">
             <img class="profile-picture" src="@((UserContext.gender == "M") ? "images/male-icon.png" : "images/female-icon.png")" @onclick="openProfileMenu">
@@ -102,15 +105,42 @@
         <p class="profile-name">@UserContext.firstName</p>
     </div>
 </div>
-
+<ProfilePopup IsVisible="@isProfileVisible" IsVisibleChanged="@ProfileVisibility" />
 @code {
-    [Parameter] public bool isMenuVisible { get; set; }
-    [Parameter] public EventCallback showProfilePopup { get; set; }
-    [Parameter] public EventCallback openProfileMenu { get; set; }
+    private bool isMenuVisible = false;
+    private bool isProfileVisible = false;
 
     private void toCentralPage()
     {
         NavManager.NavigateTo("Central", forceLoad: true);
+    }
+
+    private void toCoursesOrTeam()
+    {
+        if (UserContext.status == "Employee") NavManager.NavigateTo("Forme");
+        else NavManager.NavigateTo("Team");
+    }
+
+    private void toStats()
+    {
+        NavManager.NavigateTo("Stats");
+    }
+
+    private void openProfileMenu()
+    {
+        isMenuVisible = !isMenuVisible;
+        isProfileVisible = false;
+    }
+
+    private void showProfilePopup()
+    {
+        isMenuVisible = false;
+        isProfileVisible = true;
+    }
+
+    private void ProfileVisibility(bool isVisible)
+    {
+        isProfileVisible = isVisible;
     }
 
     private void quit()

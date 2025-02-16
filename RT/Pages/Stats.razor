@@ -1,0 +1,57 @@
+﻿@page "/Stats"
+
+<link href="css/stats.css" rel="stylesheet" />
+<PageTitle>Статистика</PageTitle>
+<div class="page">
+    <Header />
+    <div class="main">
+        <img class="image" src="images/stats.webp" />
+        <table>
+            <tr>
+                <td class="td-left">Пройдено курсов:</td>
+                <td>@all</td>
+            </tr>
+            <tr>
+                <td class="td-left">Из сегмента "Общие":</td>
+                <td>@gen</td>
+            </tr>
+            <tr>
+                <td class="td-left">Из сегмента B2B:</td>
+                <td>@b2b</td>
+            </tr>
+            <tr>
+                <td class="td-left">Из сегмента B2C:</td>
+                <td>@b2c</td>
+            </tr>
+            <tr>
+                <td class="td-left">Из сегмента B2G:</td>
+                <td>@b2g</td>
+            </tr>
+        </table>
+    </div>
+    <Footer />
+</div>
+
+@code {
+    private List<Objective> objectives = new List<Objective>();
+    private List<Course> courses = new List<Course>();
+
+    private int all, gen, b2b, b2c, b2g = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        objectives = await SQLiteService.getObjectivesAsync();
+        courses = await SQLiteService.getCoursesAsync();
+        foreach(var o in objectives)
+        {
+            foreach (var c in courses)
+            {
+                if ((UserContext.id == o.Employee_Id) && (o.Course_Id == c.Course_Id) && (o.IsFinished == true)) all++;
+                if ((UserContext.id == o.Employee_Id) && (o.Course_Id == c.Course_Id) && (c.Category == "Общий") && (o.IsFinished == true)) gen++;
+                if ((UserContext.id == o.Employee_Id) && (o.Course_Id == c.Course_Id) && (c.Category == "B2B") && (o.IsFinished == true)) b2b++;
+                if ((UserContext.id == o.Employee_Id) && (o.Course_Id == c.Course_Id) && (c.Category == "B2C") && (o.IsFinished == true)) b2c++;
+                if ((UserContext.id == o.Employee_Id) && (o.Course_Id == c.Course_Id) && (c.Category == "B2G") && (o.IsFinished == true)) b2g++;
+            }
+        }
+    }
+}

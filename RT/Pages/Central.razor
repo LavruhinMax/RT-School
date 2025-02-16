@@ -1,11 +1,9 @@
 ﻿@page "/Central"
-@inject SQLiteService SQLiteService
-@inject NavigationManager NavManager
 
 <link href="css/central.css" rel="stylesheet" />
 <PageTitle>Главная</PageTitle>
 <div class="page">
-    <Header isMenuVisible="@isMenuVisible" showProfilePopup="showProfilePopup" openProfileMenu="openProfileMenu"/>
+    <Header/>
     <div class="main">
         <input type="text" @bind="searchOption" @oninput="inputChanged" placeholder="Ищете что-то конкретное?" />
         @if(string.IsNullOrEmpty(searchOption))
@@ -29,7 +27,7 @@
                 </div>
             </div>
             <SearchTitle filter="@filter"/>
-            <Courses filteredCourses="filteredCourses" showCoursePopup="showCoursePopup"/>
+            <Courses filteredCourses="filteredCourses" objectives="objectives" showCoursePopup="showCoursePopup" />
         }
         else {
             <SearchTitle filter="Найдено по вашему запросу:"/>
@@ -39,7 +37,7 @@
             }
             else
             {
-                <Courses filteredCourses="filteredCourses" showCoursePopup="showCoursePopup" />
+                <Courses filteredCourses="filteredCourses" objectives="objectives" showCoursePopup="showCoursePopup" />
             }
         }
     </div>
@@ -47,23 +45,23 @@
 </div>
 
 <CoursePopup IsVisible="@isCourseVisible" IsVisibleChanged="@CourseVisibility" Name="@courseName" />
-<ProfilePopup IsVisible="@isProfileVisible" IsVisibleChanged="@ProfileVisibility"/>
 
 @code {
     private List<Course> courses = new List<Course>();
-    private bool isMenuVisible = false;
-    private bool isProfileVisible = false;
+    private IEnumerable<Course> filteredCourses;
+    private List<Objective> objectives = new List<Objective>();
+
     private bool isCourseVisible = false;
     private string courseName;
 
     private string searchOption = string.Empty;
-    private IEnumerable<Course> filteredCourses;
     private string filter = "Все курсы";
 
     protected override async Task OnInitializedAsync()
     {
         courses = await SQLiteService.getCoursesAsync();
         filteredCourses = courses;
+        objectives = await SQLiteService.getObjectivesAsync();
     }
 
     private async Task inputChanged(ChangeEventArgs e)
@@ -108,20 +106,16 @@
         filter = "Для сегмента B2G";
     }
 
-    private void openProfileMenu() {
-        isMenuVisible = !isMenuVisible;
-        isCourseVisible = false;
-        isProfileVisible = false;
-    }
-
-    private void showProfilePopup()
-    {
-        isMenuVisible = false;
-        isProfileVisible = true;
-    }
 
     private void showCoursePopup(string name)
     {
+        foreach(var c in courses)
+        {
+            if (c.Name == name) {
+                CourseContext.id = c.Course_Id;
+                CourseContext.time = c.Time;
+            }
+        }
         isCourseVisible = true;
         courseName = name;
     }
@@ -129,11 +123,6 @@
     private void CourseVisibility(bool isVisible)
     {
         isCourseVisible = isVisible;
-    }
-
-    private void ProfileVisibility(bool isVisible)
-    {
-        isProfileVisible = isVisible;
     }
 
 }

@@ -1,10 +1,8 @@
-@inject NavigationManager NavManager
-
 <style>
     .course-popup {
     position: fixed;
-    top: 25%;
-    bottom: 25%;
+    top: 35%;
+    bottom: 35%;
     left: 30%;
     right: 30%;
     background-color: white;
@@ -22,7 +20,7 @@
     }
 
     .left-container {
-    height: 90%;
+    height: 70%;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -37,15 +35,8 @@
     margin: 0
     }
 
-    .brief {
-    font-size: 1vw;
-    line-height: 1.5vw;
-    font-weight: 400;
-    margin: 0
-    }
-
     .start {
-    height: 15%;
+    height: 20%;
     display: flex;
     font-size: 1.5vw;
     font-weight: 600;
@@ -57,11 +48,11 @@
     .time {
     object-fit: cover;
     object-position: center;
-    width: 15%;
+    width: 10%
     }
 
     .time-text {
-    width: 50%;
+    width: 55%;
     margin: 0 0 0 3%
     }
 
@@ -100,10 +91,9 @@
     <div class="course-page">
         <div class="left-container">
             <p class="title">@Name</p>
-            <p class="brief">Данный курс предназначен для всех сотрудников Ростелеком</p>
             <div class="start">
                 <img class="time" src="images/time.png"/>
-                <p class="time-text">2:30</p>
+                <p class="time-text">@CourseContext.time</p>
                 <button class="begin" @onclick="begin">Начать >></button>
             </div>
         </div>

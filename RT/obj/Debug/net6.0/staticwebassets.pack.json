@@ -5,12 +5,72 @@
       "PackagePath": "staticwebassets\\RT.soa3fb3d2i.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\135.png",
+      "PackagePath": "staticwebassets\\c-images\\135.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking.png",
+      "PackagePath": "staticwebassets\\c-images\\calltracking.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking2.webp",
+      "PackagePath": "staticwebassets\\c-images\\calltracking2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking3.png",
+      "PackagePath": "staticwebassets\\c-images\\calltracking3.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\calltracking4.png",
+      "PackagePath": "staticwebassets\\c-images\\calltracking4.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\eizen.png",
+      "PackagePath": "staticwebassets\\c-images\\eizen.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\hunt.png",
+      "PackagePath": "staticwebassets\\c-images\\hunt.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\pareto.png",
+      "PackagePath": "staticwebassets\\c-images\\pareto.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\tele2-2.webp",
+      "PackagePath": "staticwebassets\\c-images\\tele2-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\tele2.webp",
+      "PackagePath": "staticwebassets\\c-images\\tele2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\c-images\\time-management.png",
+      "PackagePath": "staticwebassets\\c-images\\time-management.png"
+    },
+    {
       "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\central.css",
       "PackagePath": "staticwebassets\\css\\central.css"
     },
     {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\coursePage.css",
+      "PackagePath": "staticwebassets\\css\\coursePage.css"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\forme.css",
+      "PackagePath": "staticwebassets\\css\\forme.css"
+    },
+    {
       "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\start.css",
       "PackagePath": "staticwebassets\\css\\start.css"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\stats.css",
+      "PackagePath": "staticwebassets\\css\\stats.css"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\css\\team.css",
+      "PackagePath": "staticwebassets\\css\\team.css"
     },
     {
       "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\favicon.ico",
@@ -47,6 +107,10 @@
     {
       "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\business.png",
       "PackagePath": "staticwebassets\\images\\business.png"
+    },
+    {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\done.png",
+      "PackagePath": "staticwebassets\\images\\done.png"
     },
     {
       "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\exit.png",
@@ -89,6 +153,10 @@
       "PackagePath": "staticwebassets\\images\\prof.webp"
     },
     {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\required.png",
+      "PackagePath": "staticwebassets\\images\\required.png"
+    },
+    {
       "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\search.svg",
       "PackagePath": "staticwebassets\\images\\search.svg"
     },
@@ -101,16 +169,16 @@
       "PackagePath": "staticwebassets\\images\\skill.webp"
     },
     {
+      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\stats.webp",
+      "PackagePath": "staticwebassets\\images\\stats.webp"
+    },
+    {
       "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\tech.png",
       "PackagePath": "staticwebassets\\images\\tech.png"
     },
     {
       "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\time.png",
       "PackagePath": "staticwebassets\\images\\time.png"
-    },
-    {
-      "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\time.webp",
-      "PackagePath": "staticwebassets\\images\\time.webp"
     },
     {
       "Id": "C:\\Users\\Максим\\Documents\\Projects\\RT\\RT\\wwwroot\\images\\tools.png",

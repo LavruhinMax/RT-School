@@ -1,0 +1,37 @@
+﻿@page "/Team"
+<link href="css/team.css" rel="stylesheet" />
+<PageTitle>Команда</PageTitle>
+<div class="page">
+    <Header />
+    <div class="main">
+        <SearchTitle filter="Мои подчинённые" />
+        @if (filteredEmployees != null)
+        {
+            <div class="employee-list">
+                @foreach (var e in filteredEmployees)
+                {
+                    <div class="employee-card">
+                        <img src="@((e.Gender == "M") ? "images/male-icon.png" : "images/female-icon.png")" />
+                        <div class="stats-column">
+                            <p>@e.Last_Name @e.First_Name @e.Middle_Name</p>
+                            <p>@e.Phone_Number</p>
+                            <p>@e.Email</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+    <Footer />
+</div>
+
+@code {
+    private List<Employee> employees = new List<Employee>();
+    private List<Employee> filteredEmployees = new List<Employee>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await SQLiteService.getEmployeesAsync();
+        filteredEmployees = employees.Where(e => e.Supervisor_Id == UserContext.id).ToList();
+    }
+}

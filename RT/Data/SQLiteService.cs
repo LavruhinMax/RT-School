@@ -11,10 +11,6 @@ namespace RT.Data
         {
             _context = context;
         }
-        public async Task<List<Supervisor>> getSupervisorsAsync()
-        {
-            return await _context.Supervisors.ToListAsync();
-        }
         public async Task<List<Employee>> getEmployeesAsync()
         {
             return await _context.Employees.ToListAsync();
@@ -27,9 +23,13 @@ namespace RT.Data
         {
             return await _context.Accounts.ToListAsync();
         }
-        public async Task<List<Objective>> getEmployee_Courses()
+        public async Task<List<Objective>> getObjectivesAsync()
         {
             return await _context.Objectives.ToListAsync();
+        }
+        public async Task<List<Supervisor>> getSupervisorsAsync()
+        {
+            return await _context.Supervisors.ToListAsync();
         }
 
         public async Task updateEmployee()
@@ -39,6 +39,27 @@ namespace RT.Data
             existingEmployee.Phone_Number = UserContext.phoneNumber;
             existingEmployee.Email = UserContext.email;
 
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task AddObjectiveAsync(int employeeId, int courseId, bool isFinished, bool isObligatory)
+        {
+            var objective = new Objective
+            {
+                Employee_Id = employeeId,
+                Course_Id = courseId,
+                IsFinished = isFinished,
+                IsObligatory = isObligatory
+            };
+
+            await _context.Objectives.AddAsync(objective);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task RemoveObjectiveAsync(int employeeId, int courseId)
+        {
+            var objective = await _context.Objectives.FirstOrDefaultAsync(o => o.Employee_Id == employeeId && o.Course_Id == courseId);
+            _context.Objectives.Remove(objective);
             await _context.SaveChangesAsync();
         }
     }
